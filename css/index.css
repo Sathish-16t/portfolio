@@ -1,0 +1,192 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+/* navication */
+
+.navication{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+.title{
+    font-size: 20px;
+
+}
+.first{
+    font-size: 26px;
+    font-weight: bold;
+    color:orangered
+
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    outline: none;
+}
+.link:hover{
+    border-bottom: 2px solid orangered;
+
+}
+.contact{
+    
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px 16px;
+    border-radius: 20px;
+}
+.contact:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* hero section */
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.start{
+    font-size: 32px;
+}
+.name{
+    font-size: 36px;
+}
+.role{
+    font-size: 24px;
+}
+span{
+    color: orangered;
+    font-size: 38px;
+}
+.chat{
+    padding: 10px 18px;
+    color: white;
+    background-color: black;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+}
+.chat:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.btn{
+text-decoration: none;
+color: white;
+padding: 10px 20px;
+}
+.btn:hover{
+    color: black;
+}
+
+.image{
+    height: 400px;
+
+}
+
+/* experince */
+
+.experience{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    transition: 1s ease-in;
+}
+.exp{
+    display: column;
+    align-items: center;
+    width: 435px;
+    
+}
+.location{
+    width: 435px;
+}
+.exptxt{
+    font-size: 26px;
+
+}
+.interndes{
+    color: gray;
+}
+.work{
+    font-size: 24px;
+}
+.duration{
+    font-size: 20px;
+    color: gray;
+}
+.place{
+    color: gray;
+}
+
+/* skills */
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: black;
+    transition: 0.5s ease-in;
+}
+.skillbox{
+    width: 435px;
+    text-align: left;
+}
+.skilldes,li{
+    color: gray;
+}
+
+.showskills{
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 435px;
+text-align: left;
+}
+
+/* projects */
+
+.projects{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.projbtn{
+    background-color: blue;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.projbtn:hover{
+    border: 1px solid blue;
+    background-color: white;
+}
+.git{
+    text-decoration: none;
+    color: white;
+    padding: 12px 18px;
+}
+.git:hover{
+    color: black;
+}
+.projsum{
+    margin-top: 60px;
+}
+.fea{
+    color: black;
+}
