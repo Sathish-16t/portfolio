@@ -12,7 +12,7 @@ body{
  align-items: center;
 }
 .title{
-    font-size: 20px;
+    font-size: 22px;
 
 }
 .first{
@@ -26,6 +26,7 @@ body{
     cursor: pointer;
     color: black;
     outline: none;
+    font-size: 19px;
 }
 .link:hover{
     border-bottom: 2px solid orangered;
@@ -37,6 +38,9 @@ body{
     border: 1px solid black;
     padding: 8px 16px;
     border-radius: 20px;
+ text-decoration: none;
+ color: black;
+    font-size: 19px;
 }
 .contact:hover{
     background-color: black;
@@ -53,17 +57,17 @@ body{
     margin-top: 30px;
 }
 .start{
-    font-size: 32px;
-}
-.name{
     font-size: 36px;
 }
+.name{
+    font-size: 42px;
+}
 .role{
-    font-size: 24px;
+    font-size: 19px;
 }
 span{
     color: orangered;
-    font-size: 38px;
+    font-size: 46px;
 }
 .chat{
     padding: 10px 18px;
@@ -72,6 +76,7 @@ span{
     outline: none;
     border-radius: 20px;
     border: none;
+    
 }
 .chat:hover{
     background-color: white;
@@ -82,6 +87,7 @@ span{
 text-decoration: none;
 color: white;
 padding: 10px 20px;
+font-size: 19px;
 }
 .btn:hover{
     color: black;
@@ -94,75 +100,92 @@ padding: 10px 20px;
 
 /* experince */
 
-.experience{
+.expe{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+    width: 80%;
+    transition: 1s ease-in;
+}
+.experience{
     background-color: black;
     color: white;
-    transition: 1s ease-in;
+    display: flex;
+    justify-content: center;
 }
 .exp{
     display: column;
     align-items: center;
-    width: 435px;
     
 }
-.location{
-    width: 435px;
-}
+
 .exptxt{
-    font-size: 26px;
+    font-size: 30px;
 
 }
 .interndes{
     color: gray;
+    font-size: 19px;
 }
 .work{
-    font-size: 24px;
+    font-size: 30px;
 }
-.duration{
-    font-size: 20px;
+
+.place,.duration{
     color: gray;
-}
-.place{
-    color: gray;
+    font-size: 19px;
 }
 
 /* skills */
 
-.skills{
+.skillset{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+.skills{
     color: white;
     background-color: black;
     transition: 0.5s ease-in;
+    display: flex;
+    justify-content: center;
 }
 .skillbox{
-    width: 435px;
     text-align: left;
+}
+.skilltxt{
+    font-size: 30px;
 }
 .skilldes,li{
     color: gray;
+    font-size: 19px;
 }
-
+.softtxt{
+    font-size: 30px;
+}
+.devtxt{
+    font-size: 30px;
+    
+}
 .showskills{
 display: flex;
-justify-content: space-between;
-align-items: center;
-width: 435px;
+justify-content: center;
 text-align: left;
 }
 
 /* projects */
 
+.projbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+
+}
 .projects{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-
+    justify-content: center;
 }
 .projbtn{
     background-color: blue;
@@ -179,6 +202,7 @@ text-align: left;
 .git{
     text-decoration: none;
     color: white;
+    font-size: 19px;
     padding: 12px 18px;
 }
 .git:hover{
@@ -187,6 +211,80 @@ text-align: left;
 .projsum{
     margin-top: 60px;
 }
+.projname{
+    font-size: 30px;
+}
+.feature{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+    list-style: none;
+}
+.projdes{
+    font-size: 19px;
+}
 .fea{
     color: black;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+/* about */
+
+.about{
+    text-align: center;
+}
+.contxt{
+    font-size: 30px;
+}
+.condes{
+    font-size: 19px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+input{
+    padding: 18px 60px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+}
+input:focus{
+    border: 1px solid blue;
+}
+.inp1,.inp2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+textarea{
+    height: 200px;
+    width: 500px;
+    outline: none;
+    border-radius: 7px;
+}
+textarea:focus{
+    border: 1px solid blue;
+}
+.sentbtn{
+    padding: 10px 16px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 19px;
+}
+.sentbtn:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* responsiveness */
+@media (max-width:480px){
+    
 }
