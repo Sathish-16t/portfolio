@@ -15,16 +15,16 @@
     <h5 class="title"><bold class="first">P</bold>ortfolio</h5>
     <a href="#experience" class="link">Experience</a>
     <a href="#skills" class="link">Skills</a>
-    <a href="#project" class="link">Projects</a>
+    <a href="#projects" class="link">Projects</a>
     <a href="#about" class="link">About</a>
-    <button class="contact">Contact</button>
+    <a href="mailto:sathishkumar200664@gmail.com"class="contact">contact</a>
  </nav>
  
  <!-- headline -->
   <section class="hero">
     <div class="intro">
     <h2 class="start">Hey ,This is <h1 class="name"><span>S</span>athish <span>K</span>umar</h1> <p class="role">an beginner Web Developer</p></h2>
-    <button class="chat"><a href="mailto:sathishkumar200664@gmail.com" class="btn">Let's Talk</a></button>
+    <button class="chat"><a href="resume.pdf" class="btn" download=>Resume</a></button>
     </div>
     <div class="imagebox">
     <img src="imges/image6.jpg" alt="" class="image">
@@ -32,7 +32,9 @@
   </section>
 
   <!-- experience -->
+   
    <section class="experience" id="experience">
+    <div class="expe">
 <div class="exp">
 <h3 class="exptxt">Experience</h3>
 <p class="interndes">I have intern experience in web development <br>and i am learn HTML ,CSS and 
@@ -40,22 +42,24 @@
 </div>
 <div class="location">
     <h3 class="work">Web development</h3>
-    <h4 class="duration">1 month-July 2025</h4>
-    <p class="place"> Open GenX Technologies ,Arasaradi ,Madurai ,Tamilnadu</p>
+    <p class="duration">1 month-July 2025</p>
+    <p class="place"> Open GenX Technologies ,Arasaradi ,<br>Madurai ,Tamilnadu</p>
+</div>
 </div>
    </section>
 
    <!-- tools -->
 
    <section class="skills" id="skills">
+    <div class="skillset">
     <div class="skillbox">
-        <h2 class="skilltxt">Skills</h2>
+        <h3 class="skilltxt">Skills</h3>
         <p class="skilldes">Able to build simple websites using HTML ,<br>CSS and Javascript</p>
 
     </div>
     <div class="showskills">
         <div class="soft">
-            <h2 class="softtxt">Soft Skills</h2>
+            <h3 class="softtxt">Soft Skills</h3>
             <ul>
                 <li>Teamwork</li>
                 <li>Leadership</li>
@@ -65,7 +69,7 @@
 
         </div>
         <div class="technic">
-            <h2 class="devtxt">Development</h2>
+            <h3 class="devtxt">Development</h3>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -75,15 +79,17 @@
             </ul>
         </div>
     </div>
+    </div>
    </section>
 
    <!-- projects -->
 
    <section class="projects" id="projects">
-    <div class="projname">
-        <h2>Project </h2>
-        <p>A simple to do list app using HTML,CSS and Javascript 
-            let user can create ,delete ,mark tasks
+    <div class="projbox">
+    <div class="projnamebox">
+        <h3 class="projname">Project </h3>
+        <p class="projdes">1. A simple to do list app using HTML, CSS <br>and Javascript 
+            let user can <br>create ,delete ,mark tasks
         </p>
         <button class="projbtn">
         <a  class="git" href="https://github.com/Sathish-16t/To-do-list.git">See project</a>
@@ -91,19 +97,38 @@
     </div>
 
     <div class="projsum">
-           <h2>To Do List App</h2>
-           <p>A simple to do list app built with HTML ,CSS and javascript.
+           <h3 class="projname">To Do List App</h3>
+           <p class="projdes">A simple to do list app built with HTML , <br>CSS and javascript.
            </p>
-           <ul>Features
+           <ul class="feature">Features
             <li class="fea">Create</li>
             <li class="fea">Delete</li>
             <li class="fea">Mark Completed TASk</li>
             <li class="fea">Search Tasks</li>
             <li class="fea">Save using Localstorage</li>
            </ul>
+
+    </div>
+    <div></div>
     </div>
    </section>
+   <section class="about" id="about">
+    <h3 class="contxt">To Know More About Me</h3>
+    <p class="condes">Feel free to reach out for inquiry</p>
+    <form action="https://formsubmit.co/sathishkumar200664@gmail.com" method="post">
+       <div class="inp1"> 
+        <input type="text" placeholder="Name" required name="name">
+        <input type="email" placeholder="Email" required name="email">
+        <input type='tel' placeholder="Number" required name="number">
+
+       </div>
+        <div class="inp2">
+        <textarea name="message" id="" placeholder="Write meassge" required></textarea>
+        </div>
+        <button type="submit" class="sentbtn">sent message</button>
+
+    </form>
+   </section>
+   <script></script>
 </body>
-
 </html>
-
