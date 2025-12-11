@@ -252,6 +252,8 @@ input{
     border-radius: 5px;
     outline: none;
     border: 1px solid gray;
+    font-size: 18px;
+
 }
 input:focus{
     border: 1px solid blue;
@@ -267,6 +269,7 @@ textarea{
     width: 500px;
     outline: none;
     border-radius: 7px;
+    font-size: 18px;
 }
 textarea:focus{
     border: 1px solid blue;
@@ -282,9 +285,174 @@ textarea:focus{
     background-color: black;
     color: white;
 }
+.burger{
+    display: none;
+    cursor: pointer;
+}
+#nav2{
+    /* display: none; */
+}
+.nav2{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    background-color: gray;
+    color: white;
+    position: absolute;
+    top: 58px;
+    left: 7px;
+}
+.link2{
+    color: white;
+    text-decoration: none;
+}
+.link2:hover{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+
+}
 
 
 /* responsiveness */
 @media (max-width:480px){
+    /* nav */
+.burger{
+    display: block;
+}
+.link{
+    display: none;
+}
+.title{
+    font-size: 16px;
+}
+.first{
+    font-size: 20px;
+}
+.contact{
+    font-size: 16px;
+    padding: 6px 18px;
+}
+.navication{
+    justify-content: space-evenly;
+}
+
+/* hero */
+
+.hero{
+    flex-direction: column-reverse;
+}
+.image{
+    height: 200px;
+}
+.start{
+    font-size: 24px;
+}
+.name{
+    font-size: 28px;
+}
+span{
+    font-size: 32px;
+}
+.role{
+    font-size: 16px;
+}
+.chat{
+    font-size: 16px;
+    padding: 10px 16px;
+    margin-left: 35px;
+}
+
+/* experience */
+.experience{
+    margin-top: 10px;
+}
+.expe{
+    flex-direction: column;
+    align-items: start;
+}
+.exptxt,.work{
+    font-size: 20px;
+}
+.interndes,.duration,.place{
+    font-size: 16px;
+}
+
+/* skills */
+
+.skillset{
+    flex-direction: column;
+}
+.skilltxt,.softtxt,.devtxt{
+    font-size: 20px;
+}
+li,.skilldes{
+    font-size: 16px;
+}
+
+/* .projects */
+
+.projbox{
+    flex-direction: column;
+}
+.projname{
+    font-size: 20px;
+}
+.projeds,.fea{
+    font-size: 16px;
+}
+.feature{
+    font-size: 18px;
+}
+.projbtn{
+    font-size: 16px;
+    padding: 10px 16px;
+}
+
+
+/* about */
+
+.contxt{
+    font-size: 20px;
+}
+.condes{
+    font-size: 16px;
+}
+.inp1{
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    padding: 12px 14px;
+    font-size: 16px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    font-size: 16px;
+
+}
+.sentbtn{
+    font-size: 16px;
+    padding: 10px 16px;
+}
+
+
     
+}
+.hero,.experience,.skills,.projects,.about{
+    opacity: 0;
+    transition: translateX(-400px);
+    transition: 0.9s ease-in all 0.4s;
+}
+
+.fadeleft{
+    opacity:1;
+    transform: translateX(0px);
 }
