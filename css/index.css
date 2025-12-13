@@ -1,0 +1,550 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+
+/* navication */
+
+.navication{
+ display: flex;
+ justify-content: space-evenly;
+ align-items: center;
+}
+.title{
+    font-size: 22px;
+
+}
+.first{
+    font-size: 26px;
+    font-weight: bold;
+    color:orangered
+
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    outline: none;
+    font-size: 19px;
+}
+.link:hover{
+    border-bottom: 2px solid orangered;
+
+}
+.contact{
+    
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px 16px;
+    border-radius: 20px;
+ text-decoration: none;
+ color: black;
+    font-size: 19px;
+}
+.contact:hover{
+    background-color: black;
+    color: white;
+}
+
+
+
+/* hero section */
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+}
+.start{
+    font-size: 36px;
+}
+.name{
+    font-size: 42px;
+}
+.role{
+    font-size: 19px;
+}
+span{
+    color: orangered;
+    font-size: 46px;
+}
+.chat{
+    padding: 10px 18px;
+    color: white;
+    background-color: black;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    
+}
+.chat:hover{
+    background-color: white;
+    border: 1px solid black;
+}
+
+.btn{
+text-decoration: none;
+color: white;
+padding: 10px 20px;
+font-size: 19px;
+}
+.btn:hover{
+    color: black;
+}
+
+.image{
+    height: 400px;
+
+}
+
+/* experince */
+
+.expe{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+    
+}
+.experience{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.exp{
+    display: column;
+    align-items: center;
+    flex-basis: 40%;
+    
+}
+.location{
+    flex-basis: 40%;
+}
+
+.exptxt{
+    font-size: 30px;
+
+}
+.interndes{
+    color: gray;
+    font-size: 19px;
+}
+.work{
+    font-size: 26px;
+}
+
+.place,.duration{
+    color: gray;
+    font-size: 19px;
+}
+
+/* skills */
+
+.skillset{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.skills{
+    color: white;
+    background-color: black;
+    transition: 0.5s ease-in;
+    display: flex;
+    justify-content: center;
+}
+.skillbox{
+    text-align: left;
+    flex-basis: 40%;
+}
+.skilltxt{
+    font-size: 30px;
+}
+.skilldes,li{
+    color: gray;
+    font-size: 19px;
+}
+.softtxt{
+    font-size: 26px;
+}
+.devtxt{
+    font-size: 26px;
+    
+}
+.showskills{
+display: flex;
+flex-basis: 40%;
+}
+.list{
+    padding-left:20px ;
+}
+/* projects */
+
+.projbox{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+
+}
+.projects{
+    display: flex;
+    justify-content: center;
+}
+.projbtn{
+    background-color: blue;
+    color: white;
+    padding: 12px 16px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.projbtn:hover{
+    border: 1px solid blue;
+    background-color: white;
+}
+.git{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    padding: 12px 18px;
+}
+.git:hover{
+    color: black;
+}
+.projsum{
+    flex-basis: 40%;
+}
+.projnamebox{
+    flex-basis: 40%;
+}
+.projname{
+    font-size: 26px;
+}
+.projtxt{
+    font-size: 30px;
+}
+.feature{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0;
+    list-style: none;
+}
+.projdes{
+    font-size: 19px;
+}
+.fea{
+    color: black;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+/* about */
+
+.about{
+    text-align: center;
+}
+.contxt{
+    font-size: 30px;
+}
+.condes{
+    font-size: 19px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+input{
+    padding: 18px 60px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 18px;
+
+}
+input:focus{
+    border: 1px solid blue;
+}
+.inp1,.inp2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+textarea{
+    height: 200px;
+    width: 500px;
+    outline: none;
+    border-radius: 7px;
+    font-size: 18px;
+}
+textarea:focus{
+    border: 1px solid blue;
+}
+.sentbtn{
+    padding: 10px 16px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 19px;
+}
+.sentbtn:hover{
+    background-color: black;
+    color: white;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+#nav2{
+    display: none;
+    /* m */
+}
+.nav2{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    width: 150px;
+    background-color: gray;
+    color: white;
+    position: absolute;
+    top: 58px;
+    left: 7px;
+}
+.link2{
+    color: white;
+    text-decoration: none;
+}
+.link2:hover{
+    color: black;
+    background-color: white;
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+/* footer */
+
+.footer{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: black;
+    padding: 20px;
+}
+small{
+color: black;
+}
+.social{
+    display: flex;
+    gap: 25px;
+}
+.footnav{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    align-items: none
+}
+.link3{
+    text-decoration: none;
+    color: lightgray;
+    transition: 0.3s ease-in;
+}
+.link3:hover{
+    border-bottom: 1px solid orangered;
+}
+.rights{
+    color: white;
+    font-size: 20px;
+}
+.together{
+    color: lightgray;
+    font-size: 16px;
+}
+i{
+    color: orangered;
+}
+
+/* responsiveness */
+@media (max-width:480px){
+    /* nav */
+.burger{
+    display: block;
+}
+.link{
+    display: none;
+}
+.title{
+    font-size: 16px;
+}
+.first{
+    font-size: 20px;
+}
+.contact{
+    font-size: 16px;
+    padding: 6px 18px;
+}
+.navication{
+    justify-content: space-evenly;
+}
+
+/* hero */
+
+.hero{
+    flex-direction: column-reverse;
+}
+.image{
+    height: 200px;
+}
+.start{
+    font-size: 24px;
+}
+.name{
+    font-size: 28px;
+}
+span{
+    font-size: 32px;
+}
+.role{
+    font-size: 16px;
+}
+.chat{
+    font-size: 16px;
+    padding: 10px 16px;
+    margin-left: 35px;
+}
+
+/* experience */
+.experience{
+    margin-top: 10px;
+}
+.expe{
+    flex-direction: column;
+    align-items: start;
+    flex-basis: 80%;
+}
+.exptxt{
+    font-size: 20px;
+}
+.work{
+    font-size: 18px;
+}
+.interndes,.duration,.place{
+    font-size: 16px;
+}
+
+/* skills */
+
+.skillset{
+    flex-direction: column;
+    align-items: start;
+    flex-basis: 80%;
+}
+.skilltxt{
+    font-size: 20px;
+}
+.softtxt,.devtxt{
+    font-size: 18px;
+}
+li,.skilldes{
+    font-size: 16px;
+}
+
+/* .projects */
+
+.projbox{
+    flex-direction: column;
+    align-content: center;
+    flex-basis: 80%;
+
+}
+.projtxt{
+    font-size: 20px;
+}
+.projname{
+    font-size: 18px;
+}
+.projeds,.fea{
+    font-size: 16px;
+}
+.feature{
+    font-size: 18px;
+}
+.projbtn{
+    font-size: 16px;
+    padding: 10px 16px;
+}
+
+
+/* about */
+
+.contxt{
+    font-size: 20px;
+}
+.condes{
+    font-size: 16px;
+}
+.inp1{
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    padding: 12px 14px;
+    font-size: 16px;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+    font-size: 16px;
+
+}
+.sentbtn{
+    font-size: 16px;
+    padding: 10px 16px;
+}
+
+/* footer */
+
+.rights{
+    font-size: 14px;
+}
+.footnav{
+display: none;
+}
+.together{
+    font-size: 12px;
+}
+    
+}
+
+/* animation */
+
+
+.hero,.about,.skillset{
+    opacity: 0;
+    transform: translateX(-40px);
+    transition: 0.9s ease all 0.3s;
+}
+.expe,.projects{
+    opacity: 0;
+    transform: translateX(40px);
+    transition: 0.9s ease all 0.5s;
+
+
+}
+
+.fade{
+    opacity:1;
+    transform: translateX(0px);
+}
