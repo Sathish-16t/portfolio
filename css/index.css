@@ -260,7 +260,7 @@ form{
     gap: 20px;
 }
 input{
-    padding: 18px 60px;
+    padding: 18px 40px;
     border-radius: 5px;
     outline: none;
     border: 1px solid gray;
@@ -527,6 +527,283 @@ display: none;
 }
     
 }
+
+@media (min-width:481px) and (max-width:768px){
+    /* nav */
+.burger{
+    display: block;
+}
+.link{
+    display: none;
+}
+.title{
+    font-size: 20px;
+}
+.first{
+    font-size: 24px;
+}
+.contact{
+    font-size: 17px;
+    padding: 6px 17px;
+}
+.navication{
+    justify-content: space-evenly;
+}
+
+/* hero */
+
+.hero{
+    flex-direction: column-reverse;
+}
+.image{
+    height: 400px;
+}
+.start{
+    font-size: 28px;
+}
+.name{
+    font-size: 32px;
+}
+span{
+    font-size: 34px;
+}
+.role{
+    font-size: 17px;
+}
+.chat{
+    font-size: 17px;
+    padding: 12px 17px;
+    margin-left: 35px;
+}
+
+/* experience */
+.experience{
+    margin-top: 10px;
+}
+.expe{
+    flex-direction: column;
+    align-items: start;
+    flex-basis: 80%;
+}
+.exptxt{
+    font-size: 28px;
+}
+.work{
+    font-size: 24px;
+}
+.interndes,.duration,.place{
+    font-size: 17px;
+}
+
+/* skills */
+
+.skillset{
+    flex-direction: column;
+    align-items: start;
+    flex-basis: 80%;
+}
+.skilltxt{
+    font-size: 28px;
+}
+.softtxt,.devtxt{
+    font-size: 24px;
+}
+li,.skilldes{
+    font-size: 17px;
+}
+
+/* .projects */
+
+.projbox{
+    flex-direction: column;
+    align-content: center;
+    flex-basis: 80%;
+
+}
+.projtxt{
+    font-size: 28px;
+}
+.projname{
+    font-size: 24px;
+}
+.projeds,.fea{
+    font-size: 17px;
+}
+.feature{
+    font-size: 17px;
+}
+.projbtn{
+    font-size: 17px;
+    padding: 12px 17px;
+}
+
+
+/* about */
+
+.contxt{
+    font-size: 28px;
+}
+.condes{
+    font-size: 17px;
+}
+.inp1{
+    flex-direction: column;
+    gap: 20px;
+}
+input{
+    padding: 14px 17px;
+    font-size: 17px;
+}
+textarea{
+    width: 350px;
+    height: 150px;
+    font-size: 17px;
+
+}
+.sentbtn{
+    font-size: 17px;
+    padding: 12px 17px;
+}
+
+/* footer */
+
+.rights{
+    font-size: 14px;
+}
+.footnav{
+display: none;
+}
+.together{
+    font-size: 12px;
+}
+    
+}
+
+
+@media (min-width:769px) and (max-width:1024px){
+    /* nav */
+
+.title{
+    font-size: 24px;
+}
+.first{
+    font-size: 28px;
+}
+.contact{
+    font-size: 18px;
+    padding: 6px 18px;
+}
+.navication{
+    justify-content: space-evenly;
+}
+
+/* hero */
+
+
+.image{
+    height: 440px;
+}
+.start{
+    font-size: 32px;
+}
+.name{
+    font-size: 36px;
+}
+span{
+    font-size: 38px;
+}
+.role{
+    font-size: 18px;
+}
+.chat{
+    font-size: 18px;
+    padding: 12px 18px;
+    
+}
+
+/* experience */
+
+.exptxt{
+    font-size: 32px;
+}
+.work{
+    font-size: 28px;
+}
+.interndes,.duration,.place{
+    font-size: 18px;
+}
+
+/* skills */
+.skilltxt{
+    font-size: 32px;
+}
+.softtxt,.devtxt{
+    font-size: 28px;
+}
+li,.skilldes{
+    font-size: 18px;
+}
+
+/* .projects */
+
+
+.projtxt{
+    font-size: 32px;
+}
+.projname{
+    font-size: 28px;
+}
+.projeds,.fea{
+    font-size: 18px;
+}
+.feature{
+    font-size: 18px;
+}
+.projbtn{
+    font-size: 18px;
+    padding: 12px 18px;
+}
+
+
+/* about */
+
+.contxt{
+    font-size: 32px;
+}
+.condes{
+    font-size: 18px;
+}
+
+input{
+    padding: 14px 0;
+    font-size: 18px;
+}
+textarea{
+    width: 380px;
+    height: 130px;
+    font-size: 18px;
+
+}
+.sentbtn{
+    font-size: 18px;
+    padding: 12px 18px;
+}
+
+/* footer */
+
+.rights{
+    font-size: 16px;
+}
+.footnav{
+display: none;
+}
+.together{
+    font-size: 14px;
+}
+    
+}
+
+
 
 /* animation */
 
