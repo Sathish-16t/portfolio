@@ -301,9 +301,8 @@ textarea:focus{
     display: none;
     cursor: pointer;
 }
-#nav2{
+.nav12{
     display: none;
-    /* m */
 }
 .nav2{
     display: flex;
