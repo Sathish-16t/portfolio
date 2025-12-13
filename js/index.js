@@ -1,3 +1,4 @@
+
 let icon=document.getElementById('burger')
 let nav=document.getElementById('nav2')
 icon.addEventListener('click',(e)=>{
@@ -22,5 +23,4 @@ window.addEventListener('load',()=>{
     expe.classList.add('fade')
     project.classList.add('fade')
 })
-
 
